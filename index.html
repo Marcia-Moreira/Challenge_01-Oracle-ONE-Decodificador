@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Cola o link do Google Fonte abaixo:-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <!--cabeçalho com logo alura Modelo FIGMA-->
+    <header>
+        <img class="logo-alura" src="/imagens/logo_alura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+            <!--seção para edição de texto e botões codificar e decodificar-->
+        <section>
+            <textarea class="text-area" cols="41" rows="8" placeholder="Digite seu texto:"></textarea>
+            
+            <div class="informacao">
+                <h6>*Apenas letras minúsculas e sem acento.</h6>
+
+            </div>
+        
+            <!--botão encriptar e desencriptar-->
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>  <!--onclick atribui a Função Encriptar-->
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <!--seção para codificar o texto com botão copiar-->
+        <section>
+            <textarea class="mensagem" cols="40" rows="15"></textarea>
+            <button class="btn-copiar">Copiar</button>
+        
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>

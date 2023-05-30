@@ -1,0 +1,106 @@
+/*   * Asterístico = Configurações Gerais*/
+* {
+    background: #E5E5E5; /*cor de fundo = backgroud*/
+    /*google fonts - tipografia - importa o link*/
+    font-family: 'Inter', sans-serif; /*copiado do site Google Fonts*/
+    font-weight: 400; /*peso da fonte*/
+    font-size: 20px; /*Tamanho da Fonte*/
+    line-height: 150%; /*Não sei o que faz*/
+}
+
+/*Configurações da Logo Alura*/
+.logo-alura {
+    margin-left: 10px; /* margem esquerda de 10 pixels */
+    margin-top: 10px; /* margem do topo */
+    width: 2%; /* largura de 2% */
+}
+
+/* configurações gerais da main */
+main {
+    display: flex;  /*permite visualizar uma caixa de texto ao lado da outra. Por padrão ele posiciona um abaixo do outro.*/
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none; /* Borda nenhuma */
+    color: #2E8B57; /* Cor do projeto */
+    margin-top: 90px;   /* margem do topo */
+    text-transform: lowercase; /* Transforma o texto em minúscula */
+}
+
+/*NÃO sei pq usar os :: 2x  */
+::placeholder { color: #2E8B57;}  /* Espaço Reservado: cor esmaecida - desfocada */
+    .text-area:focus {
+        outline: none; /* sem contorno */
+    }
+
+.mensagem {
+    background: white;
+    /*para usar uma imagem dentro do quadro msg: url(/pastadaimagem/.png) */
+    border: none; /* não queremos nenhuma borda */
+    border-radius: 24px; /* Bordas Arredondadas nos cantos */
+    color: #2E8B57;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px; /* Esapaçamento Interno */
+    position: fixed;  /* Posição é Fixa */
+    position: absolute;  /* Posição é Fixa */
+
+}
+.mensagem:focus {
+    outline: none; /* sem contorno */
+}
+
+.mensagem {
+    background-image: url(/imagens/boneco.png);  /* só com esse comando ele vai ficar repetindo a imágem dentro do espaço. */
+    background-repeat: no-repeat; /* então usamos esse pra dizer que não queremos repetir a imagem */
+    opacity: 0.3;
+  }
+
+/*Classe - Botões: */
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+/*NÃO TEM MAIS EXPLICAÇÃO NO VÍDEO, PESQUISAR O QUE SÃO! */
+.btn-desencriptar {
+    background: #2E8B57; /* cor do fundo do botão */
+    border: 1px solid #2E8B57; /* cor da borda do botão */
+    border-radius: 24px; /* borda arredondada nos cantos */
+    color: #E5E5E5;  /* Cor da Letra */
+    cursor: pointer;  /*?*/
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #E5E5E5;
+    border: 1px solid #2E8B57;
+    border-radius: 24px;
+    color: #2E8B57;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #2E8B57;
+    border-radius: 24px;
+    color: #2E8B57;
+    cursor: pointer;  /*?*/
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #8FBC9F;
+    font-size: 5px;
+}
+
+/* ANOTAÇÕES DIVERSAS*/
+/* Link da fonte Google: https://fonts.google.com/specimen/Inter?query=inter */
