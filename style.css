@@ -4,14 +4,14 @@
     /*google fonts - tipografia - importa o link*/
     font-family: 'Inter', sans-serif; /*copiado do site Google Fonts*/
     font-weight: 400; /*peso da fonte*/
-    font-size: 20px; /*Tamanho da Fonte*/
+    /*font-size: 20px;*/ /*Tamanho da Fonte*/
     line-height: 150%; /*Não sei o que faz*/
 }
 
 /*Configurações da Logo Alura*/
 .logo-alura {
-    margin-left: 10px; /* margem esquerda de 10 pixels */
-    margin-top: 10px; /* margem do topo */
+    margin-left: 20px; /* margem esquerda de 10 pixels */
+    margin-top: 20px; /* margem do topo */
     width: 2%; /* largura de 2% */
 }
 
@@ -53,7 +53,7 @@ main {
 }
 
 .mensagem {
-    background-image: url(/imagens/boneco.png);  /* só com esse comando ele vai ficar repetindo a imágem dentro do espaço. */
+    background-image: url(/boneco.png);  /* só com esse comando ele vai ficar repetindo a imágem dentro do espaço. */
     background-repeat: no-repeat; /* então usamos esse pra dizer que não queremos repetir a imagem */
     opacity: 0.3;
   }
@@ -69,6 +69,7 @@ main {
     border: 1px solid #2E8B57; /* cor da borda do botão */
     border-radius: 24px; /* borda arredondada nos cantos */
     color: #E5E5E5;  /* Cor da Letra */
+    font-size: 20px;
     cursor: pointer;  /*?*/
     height: 67px;
     margin-left: 30px;
@@ -80,6 +81,7 @@ main {
     border: 1px solid #2E8B57;
     border-radius: 24px;
     color: #2E8B57;
+    font-size: 20px;
     cursor: pointer;
     height: 67px;
     width: 328px;
@@ -89,6 +91,7 @@ main {
     border: 1px solid #2E8B57;
     border-radius: 24px;
     color: #2E8B57;
+    font-size: 20px;
     cursor: pointer;  /*?*/
     height: 67px;
     margin-left: 108px;
@@ -99,7 +102,22 @@ main {
 
 .informacao {
     color: #8FBC9F;
-    font-size: 5px;
+    font-size: 20px;
+}
+
+h5 {
+    color: #2E8B57;
+}
+
+.texto_rodape {
+    font-size: 10px;
+    color: #2E8B57;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #2E8B57;
+    
 }
 
 /* ANOTAÇÕES DIVERSAS*/
