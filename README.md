@@ -9,4 +9,9 @@ ONE - Alura - Turma 5 (JavaScript / CSS / HTML / Git / GitHub)
 Desafio de criação de um codificador e decodificador de texto com lógica de programação desenvolvida em JavaScript.
 
 Obs.: Os arquivos estão comentados.
-29/05/2023 Marcia Moreira
+
+SP, 29/05/2023 
+
+Marcia_Moreira
+[DEV_Sistemas]
+WhatsApp - (11) 97721-9430
