@@ -53,7 +53,7 @@ main {
 }
 
 .mensagem {
-    background-image: url(/boneco.png);  /* só com esse comando ele vai ficar repetindo a imágem dentro do espaço. */
+    background-image: url(boneco.png);  /* só com esse comando ele vai ficar repetindo a imágem dentro do espaço. */
     background-repeat: no-repeat; /* então usamos esse pra dizer que não queremos repetir a imagem */
     opacity: 0.3;
   }
